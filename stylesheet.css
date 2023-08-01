@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("assets/fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: "Bakerie";
+    src: url("assets/fonts/Bakerie-Bold.otf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/fonts/Montserrat-Regular.ttf");
+}
+#header {
+    height: 80vh;
+    background-color: #02498B;
+    background-size: cover;
+    position: relative;
+}
+h1, h2, h3, h4 {
+    font-family: "Oswald";
+}
+p {
+    font-family: "Montserrat";
+    line-height: 150%; /* 30px */
+    letter-spacing: 2px;
+}
+.header-content {
+    text-align: center;
+    padding-top: 3rem;
+}
+.logo {
+    height: 150px;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+}
+.title {
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.slogan {
+    font-family: "Bakerie";
+    color: #fff;
+    font-size: 3rem;
+}
+.mockup-container {
+    margin-top: -15rem;
+}
+.style-wrapper-1, .style-wrapper-3 {
+    position: absolute;
+    left: 0;
+}
+.style-wrapper-2, .style-wrapper-4 {
+    position: absolute;
+    right: 0;
+}
+.style-wrapper-1, .style-wrapper-2 {
+    z-index: 0;
+}
+.style-wrapper-3, .style-wrapper-4 {
+    z-index: -1;
+}
+.style-wrapper-1 img {
+    max-height: 80vh;
+}
+.style-wrapper-2 {
+    bottom: 0;
+}
+.page-content {
+    width: 80%;
+    margin: 0 auto;
+}
+#tagline {
+    letter-spacing: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+.page-content h3 {
+    font-weight: 700;
+    color: #02498B;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.page-content h4 {
+    line-height: 150%; /* 36px */
+    letter-spacing: 2.5px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.wwd-text {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.services, .valprop {
+    text-align: center;
+    margin-top: 2rem;
+}
+.services img, .valprop img {
+    height: 100px;
+    width: 100px;
+    margin: 2rem 0;
+}
+
+.valprop p {
+    font-family: "Oswald";
+    letter-spacing: 3px;
+    font-weight: 700;    
+}
+.contact {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.contact form {
+    width: 70%;
+}
+.contact button {
+    background-color: #02498B;
+    border-color: #02498B;
+}
+footer {
+    background-color: #02498B;
+}
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+}
+footer img {
+    height: 100px;
+    width: 100px;
+}
+footer p {
+    font-family: "Oswald";
+    color: #fff;
+    display: inline;
+    letter-spacing: 2.5px;
+}
+
+/* Animations */
+
+.animate-reveal-y {
+    opacity: 0;
+    -webkit-animation: revealY 1.8s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    -moz-animation: revealY 1.8s ease-in 1 normal forwards;
+    -o-animation: revealY 1.8s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    animation: revealY 1.8s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    -webkit-animation-delay: 200ms;
+    -moz-animation-delay: 200ms;
+    -o-animation-delay: 200ms;
+    animation-delay: 200ms;
+  }
+  .delay {
+    -webkit-animation-delay: 500ms;
+    -moz-animation-delay: 500ms;
+    -o-animation-delay: 500ms;
+    animation-delay: 500ms;
+  }
+  @-webkit-keyframes revealY {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @-moz-keyframes revealY {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @-o-keyframes revealY {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @keyframes revealY {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
