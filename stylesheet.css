@@ -247,6 +247,9 @@ footer p {
     .wwd-text {
         width: 100%;
     }
+    .contact form {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 768px) {
     .style-wrapper-1 {
