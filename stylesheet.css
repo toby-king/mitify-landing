@@ -250,6 +250,9 @@ footer p {
     .contact form {
         width: 100%;
     }
+    .tagline {
+        letter-spacing: normal;
+    }
 }
 @media screen and (max-width: 768px) {
     .style-wrapper-1 {
