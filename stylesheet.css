@@ -84,7 +84,6 @@ div[class^='style-wrapper'] img, div[class*=' style-wrapper'] img {
     margin: 0 auto;
 }
 #tagline {
-    letter-spacing: 5px;
     font-weight: 700;
     text-align: center;
 }
@@ -237,6 +236,20 @@ footer p {
     }
   }
 /* Media Queries */
+@media screen and (max-width: 991px) {
+    .style-wrapper-3 {
+        height: 50%;
+        margin-top: -3rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .style-wrapper-1 {
+        height: 60%;
+    }
+    .style-wrapper-2 {
+        height: 40%;
+    }
+}
 @media screen and (max-width: 576px) {
     .title {
         font-size: 3.5rem;
@@ -253,18 +266,39 @@ footer p {
     .tagline {
         letter-spacing: normal;
     }
-}
-@media screen and (max-width: 768px) {
-    .style-wrapper-1 {
-        height: 60%;
-    }
-    .style-wrapper-2 {
-        height: 40%;
-    }
-}
-@media screen and (max-width: 991px) {
     .style-wrapper-3 {
-        height: 50%;
-        margin-top: -3rem;
+        height: 35%;
+        margin-top: -1rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .footer-content img {
+        height: 50px;
+        width: 50px;
+    }
+    .footer-content p {
+        letter-spacing: normal;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .mockup-container {
+        margin-top: -6rem;
+    }
+}
+@media screen and (max-height: 680px) {
+    .mockup-container {
+        margin-top: 0;
+    }
+}
+@media screen and (max-height: 580px) {
+    #header {
+        min-height: 100vh;
+    }
+    .title {
+        font-size: 3.5rem;
+    }
+    .slogan {
+        font-size: 2rem;
     }
 }
