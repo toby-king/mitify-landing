@@ -83,15 +83,18 @@
             </div>
             <div class="contact">
                 <h3 class="text-start mb-5">Get In Touch</h3>
-                <form action="" method="POST">
+                <form name="contact" method="POST" data-netlify="true" >
                     <div class="form-group mb-4">
-                        <input required type="email" class="form-control" id="email" placeholder="Your email" name="email">
+                        <input required type="email" class="form-control" id="email" placeholder="Your Email" name="email">
                     </div>
                     <div class="form-group mb-4">
-                        <input required type="phone" class="form-control" id="phone" placeholder="Your telephone" name="phone">
+                        <input required type="text" class="form-control" id="name" placeholder="Your Name" name="name">
                     </div>
                     <div class="form-group mb-4">
-                        <textarea required class="form-control" id="message" placeholder="Your message" rows="5" name="message"></textarea>
+                        <input required type="text" class="form-control" id="company" placeholder="Your Company" name="company">
+                    </div>
+                    <div class="form-group mb-4">
+                        <textarea required class="form-control" id="message" placeholder="Your Message" rows="5" name="message"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary mt-2">Submit</button>
                 </form>
